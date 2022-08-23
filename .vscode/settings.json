@@ -1,0 +1,8 @@
+{
+    "window.zoomLevel": 1,
+    "prettier.configPath": ".prettierrc.js",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true,
+    },
+    "eslint.validate": ["javascript", "json"],
+}

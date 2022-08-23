@@ -1,0 +1,5 @@
+node_modules
+nginx-conf
+.env
+secret.yml
+__test__
