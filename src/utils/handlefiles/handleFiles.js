@@ -1,5 +1,6 @@
 const { promises } = require('fs');
 
+
 async function run(message) {
   // com enc no final, o sistema sabe que é encriptado
   const fileTarget = 'file-secure.txt.enc';
@@ -9,7 +10,7 @@ async function run(message) {
   // salva dados no sistema (path, messagem)
   await promises.writeFile(fileTarget, text);
   // já lista dados
-  console.log('decrypeted content: ', (await promises.readFile(fileTarget)));
+  console.log('decrypeted content: ', (await promises.readFile(fileTarget)).toString());
   console.log('finished');
 }
 
